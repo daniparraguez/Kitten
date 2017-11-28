@@ -1,0 +1,63 @@
+/*Resetear el navegador*/
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+@media (min-width: 0px) and (max-width: 506px) {
+
+body {
+	background-image: url(../img/dawn.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.cat3 {
+
+	width: 80%;
+	height: 40%;
+	padding: 6.5em 0em 0em 5em;
+}
+.cat1, .cat2{
+	display: none;
+}
+
+}
+@media (min-width: 506px) and (max-width: 720px) {
+
+body {
+	background-image: url(../img/night.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.cat1 {
+
+	width: 70%;
+	height: 40%;
+	padding: 5em 0em 0em 8em;
+}
+.cat2, .cat3{
+	display: none;
+}
+
+}
+@media (min-width: 720px) and (max-width: 1600px) {
+
+	body {
+		background-image: url(../img/sunny-day.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+.cat2 {
+
+	width: 65%;
+	height: 40%;
+	padding: 20em 0em 0em 15em;
+}
+.cat3, .cat1{
+	display: none;
+}
+
+}
+
+
